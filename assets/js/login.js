@@ -68,8 +68,8 @@ $(function () {
         localStorage.setItem('token',res.token);
         //跳转回到主页
         // location.href = '/index.html';
+        
         location.pathname = '/index.html';
-
       }
     })
   })
